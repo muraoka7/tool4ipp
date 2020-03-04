@@ -1,0 +1,5 @@
+numpy==1.14.2
+requests==2.22.0
+Pillow==7.0.0
+beautifulsoup4==4.8.2
+gensim==3.7.0
