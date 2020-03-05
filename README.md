@@ -27,10 +27,10 @@ The final output of this tool is a collection of Wikipedia articles, which are s
 
 ```
 ${ARTICLE_NAME}/
-  |-- doc.xml : a modified copy of the article
+  |-- doc.xml : an article text marked with section and image position information
   |-- doc.json : JSON format converted from doc.xml
   |-- *.jpeg : image files in JPEG format
-  |-- info/
+  |-- info/ : additional information stored
         |-- *.license : license information of images
         |-- removed.json : modified parts from the original text
 ``` 
